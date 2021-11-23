@@ -11,6 +11,7 @@ sleep - Suspends the current session
 ============================================
 i3
 ============================================
+i3edit - Opens the i3config file
 ($mod + x) - Locks i3
 ($mod + n) - Opens thunar
 ============================================

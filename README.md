@@ -1,4 +1,4 @@
-## Laptop Commands
+## Commands
 ### ============================================
  - bashedit - Opens ~/.bashrc to edit commands
  - comedit - Opens the custom commands.sh file

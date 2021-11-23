@@ -1,0 +1,17 @@
+============================================
+bashedit - Opens ~/.bashrc to edit commands
+comedit - Opens the custom commands.sh file
+dotfiles - Opens the github dotfiles folder
+resolution - Opens resolution adjuster
+VC - Opens Varsity Folder
+custom - Prints all custom commands
+custedit - Opens this document
+hack - Just changes bg (for now)
+sleep - Suspends the current session
+============================================
+i3
+============================================
+($mod + x) - Locks i3
+($mod + n) - Opens thunar
+============================================
+Github Version 0.4

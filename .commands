@@ -8,6 +8,8 @@ custom - Prints all custom commands
 custedit - Opens this document
 hack - Just changes bg (for now)
 sleep - Suspends the current session
+pissh - SSH into the pi
+pisftp - SFTP into the pi
 ============================================
 i3
 ============================================

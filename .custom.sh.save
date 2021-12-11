@@ -16,6 +16,4 @@ alias wakfu='cd;cd Games;./wakfuLauncher.AppImage'
 # Cpu Commands
 alias speed='cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_max_freq'
 # Resolution Commands
-alias resgame='xrandr --output LVDS-1 --mode 960x540'
-alias ressupergame='xrandr --output LVDS-1 --mode 640x360'
-alias resnormal='xrandr --output LVDS-1 --mode 1366x768'
+alias game='--output LVDS-1 --mode 960'

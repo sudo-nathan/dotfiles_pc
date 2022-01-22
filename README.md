@@ -23,5 +23,15 @@
  - resgame - 960x540
  - ressuperlow - 640x360
 ### ============================================
-###### Version 0.4
+## Games
+ - wakfu - Launches the Ankama Launcher
+ - minecraft-launcher - Launches the MC launcher
+### ============================================
+## API
+### ============================================
+ - wpe - Returns the weather in PE
+ - wse - Returns the weather in SSE
+ - woh - Returns the weather in ODN
+### ============================================
+###### Version 0.5
 

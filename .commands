@@ -30,6 +30,8 @@ minecraft-launcher - Launchers MC launcher
 ============================================
 API
 ============================================
-weather - checks the weather in PE
+wpe - Returns the weather in PE
+wse - Returns the weather in SSE
+woh - Returns the weather in ODN
 ============================================
 Github Version 0.5

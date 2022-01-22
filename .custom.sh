@@ -19,3 +19,5 @@ alias speed='cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_max_freq'
 alias resgame='xrandr --output LVDS-1 --mode 960x540'
 alias ressupergame='xrandr --output LVDS-1 --mode 640x360'
 alias resnormal='xrandr --output LVDS-1 --mode 1366x768'
+# API Commands
+alias weather='ruby ~/Github/dotfiles_pc/weather_api.rb | lolcat'

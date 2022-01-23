@@ -33,6 +33,7 @@ API Calls
 | wpe                | Returns the weather in PE          |
 | wse                | Returns the weather in SSE         |
 | woh                | Returns the weather in ODN         |
+| quote		     | Returns a Random quote		  |
 ===========================================================
 Github Version 0.5
 ===========================================================

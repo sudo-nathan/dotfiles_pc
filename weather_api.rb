@@ -21,7 +21,7 @@ begin
     percip = response['PrecipitationType'].nil? ? "None" : "#{response['PrecipitationType']}"
     location = response['Link'].split('za/')[1].split('/')[0].split('-').map(&:capitalize).join(' ')
     date = Date.parse(response['LocalObservationDateTime']).strftime("%Y-%m-%d %H:%M")
-    puts "Weather For #{location} \nTemprature: #{response['Temperature']['Metric']['Value']}ºC \nRain: #{percip} \nHumidity: #{response['RelativeHumidity']}% \nWind:  #{response['Wind']['Speed']['Metric']['Value']}km/h (#{response['Wind']['Direction']['English']}) \n\n\nUpdated at: #{date}"
+    puts "Weather For #{location} \nTemperature: #{response['Temperature']['Metric']['Value']}ºC \nRain: #{percip} \nHumidity: #{response['RelativeHumidity']}% \nWind:  #{response['Wind']['Speed']['Metric']['Value']}km/h (#{response['Wind']['Direction']['English']}) \n\n\nUpdated at: #{date}"
   elsif data['Code'] == "ServiceUnavailable"
     puts "Uh Oh, Accuweather Service Unavailable (API Usage Cap)"
   else

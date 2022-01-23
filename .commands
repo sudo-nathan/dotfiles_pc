@@ -1,37 +1,38 @@
-============================================
-bashedit - Opens ~/.bashrc to edit commands
-comedit - Opens the custom commands.sh file
-dotfiles - Opens the github dotfiles folder
-resolution - Opens resolution adjuster
-VC - Opens Varsity Folder
-custom - Prints all custom commands
-custedit - Opens this document
-hack - Just changes bg (for now)
-sleep - Suspends the current session
-pissh - SSH into the pi
-pisftp - SFTP into the pi
-============================================
+===========================================================
+| bashedit           | Opens ~/.bashrc to edit commands   |
+| comedit            | Opens the custom commands.sh file  |
+| dotfiles           | Opens the github dotfiles folder   |
+| resolution         | Opens resolution adjuster          |
+| VC                 | Opens Varsity Folder               |
+| custom             | Prints all custom commands         |
+| custedit           | Opens this document                |
+| hack               | Just changes bg (for now)          |
+| sleep              | Suspends the current session       |
+| pissh              | SSH into the pi                    |
+| pisftp             | SFTP into the pi                   |
+===========================================================
 i3
-============================================
-i3edit - Opens the i3config file
-($mod + x) - Locks i3
-($mod + n) - Opens thunar
-============================================
+===========================================================
+| i3edit             | Opens the i3config file            |
+| ($mod + x)         | Locks i3                           |
+| ($mod + n)         | Opens thunar                       |
+===========================================================
 Resolution
-============================================
-resnormal - 1366x768
-ressupergame - 640x360
-resgame - 960x540
-============================================
+===========================================================
+| resnormal          | 1366x768                           |
+| ressupergame       | 640x360                            |
+| resgame            | 960x540                            |
+===========================================================
 Games
-============================================
-wakfu - Launches the wakfu launcher
-minecraft-launcher - Launchers MC launcher
-============================================
-API
-============================================
-wpe - Returns the weather in PE
-wse - Returns the weather in SSE
-woh - Returns the weather in ODN
-============================================
+===========================================================
+| wakfu              | Launches Ankama launcher           |
+| minecraft-launcher | Launches MC launcher               |
+===========================================================
+API Calls
+===========================================================
+| wpe                | Returns the weather in PE          |
+| wse                | Returns the weather in SSE         |
+| woh                | Returns the weather in ODN         |
+===========================================================
 Github Version 0.5
+===========================================================

@@ -1,7 +1,7 @@
 # Custom Commands
 alias bashedit='nano ~/.bashrc'
 alias VC='cd; cd Documents/VC'
-alias custom='figlet Custom | lolcat; cat ~/Github/dotfiles_pc/.commands | lolcat'
+alias custom='figlet Commands | lolcat; cat ~/Github/dotfiles_pc/.commands | lolcat'
 alias custedit='nano ~/Github/dotfiles_pc/.commands'
 alias comedit='nano ~/Github/dotfiles_pc/.custom.sh'
 alias i3edit='nano ~/.config/i3/config file'

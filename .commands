@@ -11,6 +11,7 @@
 | sleep              | Suspends the current session       |
 | pissh              | SSH into the pi                    |
 | pisftp             | SFTP into the pi                   |
+| eoa		     | Opens a Easy of Access system 	  |
 ===========================================================
 i3
 ===========================================================

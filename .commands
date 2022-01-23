@@ -1,5 +1,6 @@
 ===========================================================
 | bashedit           | Opens ~/.bashrc to edit commands   |
+| zshrcedit	     | Opens ~/.zshrc to edit commands    |
 | comedit            | Opens the custom commands.sh file  |
 | dotfiles           | Opens the github dotfiles folder   |
 | resolution         | Opens resolution adjuster          |

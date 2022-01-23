@@ -1,5 +1,6 @@
 # Custom Commands
 alias bashedit='nano ~/.bashrc'
+alias zshrcedit='nano ~/.zshrc'
 alias VC='cd; cd Documents/VC'
 alias custom='figlet Commands | lolcat; cat ~/Github/dotfiles_pc/.commands | lolcat'
 alias custedit='nano ~/Github/dotfiles_pc/.commands'
@@ -13,6 +14,7 @@ alias pissh='ssh pi@192.168.8.148'
 alias pisftp='sftp pi@192.168.8.148'
 alias sleep='systemctl suspend'
 alias wakfu='cd;cd Games;./wakfuLauncher.AppImage'
+alias eoa='bash ~/Github/dotfiles_pc/EOA.sh'
 # Cpu Commands
 alias speed='cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_max_freq'
 # Resolution Commands

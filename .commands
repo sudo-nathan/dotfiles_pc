@@ -11,7 +11,11 @@
 | sleep              | Suspends the current session       |
 | pissh              | SSH into the pi                    |
 | pisftp             | SFTP into the pi                   |
-| eoa		     | Opens a Easy of Access system 	  |
+===========================================================
+EOA
+===========================================================
+| eoa 		     | Opens Ease of Access System        |
+| eoa-edit           | Opens EOA in Code to edit          |
 ===========================================================
 i3
 ===========================================================
@@ -35,6 +39,7 @@ API Calls
 | wpe                | Returns the weather in PE          |
 | wse                | Returns the weather in SSE         |
 | woh                | Returns the weather in ODN         |
+| nyl                | Returns the weather in NYL	  |
 | quote		     | Returns a Random quote		  |
 ===========================================================
 Github Version 0.5

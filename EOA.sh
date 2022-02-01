@@ -15,14 +15,14 @@ cyan=$(tput setaf 6)
 white=$(tput setaf 7)
 reset=$(tput sgr0) # Resets color to default
 
-echo "${red}"
+echo -n "${red}"
 figlet "EOA"
-echo "${reset}"
+echo -n "${reset}"
 
 mainmenu () {
-echo "${red}"
+echo -n "${red}"
 figlet "EOA"
-echo "${reset}" 
+echo -n "${reset}" 
 case $compact in
    2) echo "Quote of the day" | lolcat; 
       curl -s https://zenquotes.io/api/today | jq -C '.[] | .q +" ~ "+.a' | lolcat || echo "${red}Error getting quote ~ System${reset}"
@@ -150,8 +150,8 @@ echo "${reset}"
     read -n 1 -p "Input Selection:" gameinput
     clear
         case $gameinput in
-        1) wakfu ;;
-        2) minecraft-launcher ;;
+        1) minecraft-launcher ;;
+        2) wakfu;;
         0|q|Q) mainmenu ;;
         *) echo "${red}I didnt quite get that?${reset}"
         games
